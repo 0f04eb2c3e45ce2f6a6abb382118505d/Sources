@@ -1,0 +1,27 @@
+body {
+    background: url(bg.jpg) top left no-repeat #000;
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+div {
+	text-align: center;
+	opacity:1;
+	border:1px solid white;
+	margin-bottom:35px;
+	border-radius:25px;
+	box-shadow: 2px 2px #888888;
+	background-color: rgba(0,0,0,0.8);
+}
+
+img {
+	
+}
+
+p {
+	color:white;
+
+}
