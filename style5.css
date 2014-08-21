@@ -1,11 +1,17 @@
 body {
 	background: url(tile2.png) top left no-repeat #000;
 	background-repeat:repeat-y;
+	background-repeat:repeat-x;
 }
 
 a {
 	text-decoration:none;
 	color:white;
+}
+
+a.header {
+	margin-left:20px;
+	display:inline;
 }
 
 a.header:hover {
