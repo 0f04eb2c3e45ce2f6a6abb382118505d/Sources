@@ -8,7 +8,7 @@ a {
 	color:white;
 }
 
-a:hover {
+a.header:hover {
 	font-size: 150%;
 }
 
