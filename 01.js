@@ -1,15 +1,13 @@
-$(document).ready(function(){
-    $('img').hover(function() {
-        $(this).css("cursor", "pointer");
-        $(this).toggle({
-          effect: "scale",
-          percent: "90%"
-        },200);
-    }, function() {
-         $(this).toggle({
-           effect: "scale",
-           percent: "80%"
-         },200);
+$('#zoomimg').hover(function() {
+    $(this).css("cursor", "pointer");
+    $(this).animate({
+        width: "50%",
+        height: "50%"
+    }, 'slow');
 
-    });
-});  
+}, function() {
+    $(this).animate({
+        width: "28%"
+    }, 'slow');
+
+});​
