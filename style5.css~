@@ -15,7 +15,7 @@ div {t
 	margin-bottom:35px;
 	border-radius:25px;
 	box-shadow: 2px 2px #888888;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.6);
 }
 
 img {

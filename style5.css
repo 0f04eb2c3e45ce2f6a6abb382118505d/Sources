@@ -8,6 +8,10 @@ a {
 	color:white;
 }
 
+a:hover {
+	font-size: 150%;
+}
+
 div {t
 	text-align: center;
 	opacity:1;
