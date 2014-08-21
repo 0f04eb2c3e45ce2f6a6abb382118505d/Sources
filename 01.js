@@ -1,5 +1,15 @@
-$(document).ready(function() {
-console.log('hello');
-console.log(52);
-console.log($('div.poem-stanza'));
-});
+$(document).ready(function(){
+    $('img').hover(function() {
+        $(this).css("cursor", "pointer");
+        $(this).toggle({
+          effect: "scale",
+          percent: "90%"
+        },200);
+    }, function() {
+         $(this).toggle({
+           effect: "scale",
+           percent: "80%"
+         },200);
+
+    });
+});  
