@@ -10,8 +10,10 @@ a {
 }
 
 a.header {
+	text-decoration:none;
+	color:white;
 	margin-left:20px;
-	display:inline;
+	display:inline-block;
 }
 
 a.header:hover {
