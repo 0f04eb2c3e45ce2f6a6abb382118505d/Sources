@@ -1,7 +1,6 @@
 body {
 	background: url(tile2.png) top left no-repeat #000;
-	background-repeat:repeat-y;
-	background-repeat:repeat-x;
+	background-repeat:repeat;
 }
 
 a {
@@ -9,18 +8,11 @@ a {
 	color:white;
 }
 
-a.header {
-	text-decoration:none;
-	color:white;
-	margin-left:20px;
-	display:inline-block;
-}
-
 a.header:hover {
 	font-size: 150%;
 }
 
-div {t
+div {
 	text-align: center;
 	opacity:1;
 	border:1px solid white;
@@ -36,5 +28,9 @@ img {
 
 p {
 	color:white;
+}
 
+p.header {
+	margin-left:20px;
+	display:inline-block;
 }
